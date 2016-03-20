@@ -78,7 +78,7 @@
     motion: true,
     duoshuo: {
       userId: 0,
-      author: 'Author'
+      author: '博主'
     }
   };
 </script>
@@ -86,7 +86,7 @@
   <title> Momo的碎碎念 </title>
 </head>
 
-<body itemscope itemtype="http://schema.org/WebPage" lang="">
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
 
   
 
@@ -143,7 +143,7 @@
             
               <i class="menu-item-icon fa fa-home fa-fw"></i> <br />
             
-            Startseite
+            首页
           </a>
         </li>
       
@@ -153,7 +153,7 @@
             
               <i class="menu-item-icon fa fa-archive fa-fw"></i> <br />
             
-            Archiv
+            归档
           </a>
         </li>
       
@@ -163,7 +163,7 @@
             
               <i class="menu-item-icon fa fa-tags fa-fw"></i> <br />
             
-            Tags
+            标签
           </a>
         </li>
       
@@ -219,12 +219,31 @@
             <span class="post-meta-item-icon">
               <i class="fa fa-calendar-o"></i>
             </span>
-            <span class="post-meta-item-text">Veröffentlicht am</span>
+            <span class="post-meta-item-text">发表于</span>
             <time itemprop="dateCreated" datetime="2016-03-18T16:07:11+08:00" content="2016-03-18">
               2016-03-18
             </time>
           </span>
 
+          
+            <span class="post-category" >
+              &nbsp; | &nbsp;
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+              
+                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
+                  <a href="/categories/碎碎念/" itemprop="url" rel="index">
+                    <span itemprop="name">碎碎念</span>
+                  </a>
+                </span>
+
+                
+                
+
+              
+            </span>
           
 
           
@@ -248,10 +267,12 @@
 
       
         
-          
-            <p>【废话】：momo妈认为我们家食用的蔬菜品种太过单一，为了改变这一的状况，买了6两荷兰豆改善生活，豆子一定是熟了的，无奈这小豆豆比较寒凉，又或者无良菜贩子泡过什么药水，总之我食物中毒了，经过一整天吃了吐喝了吐点滴吐吃药吐之后，我只想说，我再也不吃荷兰豆了，同样在黑名单上的还有几年前让我有同样经历的雪莲果，不说了，心累。<br>    说来也怪，广东离福建真的很近，可是这么多年居然没“恰好”路过一次。这次终于说走就走去办事，见缝插针地逛吃逛吃啦，就来碎碎地念一下。突然决定要去，几乎没有时间做攻略，只在微博上看了眼美食推荐，想着应该也没时间逛景点，就彻底不关心游客必去景点啦。<br>       一到广州，在地铁站买张三日票，仅需50软妹币，不需要每次都排队买票，节省时间又不用常备零钱，棒呆！(^o^)/地铁出行很方便，除了体育西路换乘人非常多之外，基本去哪里都可以依靠地铁。</p>
-
-          
+          <p>【废话】：momo妈认为我们家食用的蔬菜品种太过单一，为了改变这一的状况，买了6两荷兰豆改善生活，豆子一定是熟了的，无奈这小豆豆比较寒凉，又或者无良菜贩子泡过什么药水，总之我食物中毒了，经过一整天吃了吐喝了吐点滴吐吃药吐之后，我只想说，我再也不吃荷兰豆了，同样在黑名单上的还有几年前让我有同样经历的雪莲果，不说了，心累。
+          <div class="post-more-link text-center">
+            <a class="btn" href="/2016/03/18/碎碎念：动物园深度沉迷患者出游记/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
         
       
     </div>
@@ -307,7 +328,7 @@
       <section class="site-overview sidebar-panel  sidebar-panel-active ">
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
           <img class="site-author-image" itemprop="image"
-               src="/images/default_avatar.jpg"
+               src="http://ww1.sinaimg.cn/large/6579dd1bgw1f23a98q8wej20fs0fsjsb.jpg"
                alt="Momo" />
           <p class="site-author-name" itemprop="name">Momo</p>
           <p class="site-description motion-element" itemprop="description"></p>
@@ -316,12 +337,26 @@
           <div class="site-state-item site-state-posts">
             <a href="/archives">
               <span class="site-state-item-count">1</span>
-              <span class="site-state-item-name">Artikel</span>
+              <span class="site-state-item-name">日志</span>
             </a>
           </div>
 
           
+            <div class="site-state-item site-state-categories">
+              
+                <span class="site-state-item-count">2</span>
+                <span class="site-state-item-name">分类</span>
+              
+            </div>
+          
 
+          
+            <div class="site-state-item site-state-tags">
+              <a href="/tags">
+                <span class="site-state-item-count">5</span>
+                <span class="site-state-item-name">标签</span>
+              </a>
+            </div>
           
 
         </nav>
@@ -365,11 +400,11 @@
 </div>
 
 <div class="powered-by">
-  Erstellt mit  <a class="theme-link" href="http://hexo.io">Hexo</a>
+  由 <a class="theme-link" href="http://hexo.io">Hexo</a> 强力驱动
 </div>
 
 <div class="theme-info">
-  Theme -
+  主题 -
   <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next">
     NexT.Muse
   </a>
